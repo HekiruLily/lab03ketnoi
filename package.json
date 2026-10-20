@@ -1,0 +1,17 @@
+{
+  "name": "lab03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fee-service.js",
+  "scripts": {
+    "fee": "node fee-service.js",
+    "bank": "node bank-service.js",
+    "test:s2": "node test-scenarios.js 2",
+    "test:s3": "node test-scenarios.js 3",
+    "test:s4": "node test-scenarios.js 4",
+    "test:s4c": "node test-scenarios.js 4c"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
